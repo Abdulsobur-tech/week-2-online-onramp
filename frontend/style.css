@@ -1,0 +1,66 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 2, 136);
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(27, 26, 26);
+    height: 50%;
+    margin-top: 10%;
+    border-radius: 10px;
+    
+}
+
+h1{
+    color: rgb(219, 2, 136);
+}
+
+button{
+    color: rgb(219, 2, 136);
+    text-decoration: none;
+    background-color: rgb(27, 26, 26);
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+.container-btn{
+  color: rgb(129, 116, 116); 
+  padding: 10px 24px; 
+  cursor: pointer; 
+    width: 50%; 
+  display: block;
+  margin-top: 0;
+}
+
+input{
+    background-color: rgb(27, 26, 26);
+    margin-left: 125%;
+    color: rgb(129, 116, 116);
+    border: none;
+    border-bottom: 1px solid white;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+
+}
+.container-btn  input:focus{
+    outline: none;
+}
+
+.btn{
+    margin-left: 70%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#submit{
+    margin-right: 30px;
+}
+
